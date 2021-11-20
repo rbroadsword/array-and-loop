@@ -7,11 +7,11 @@ function roboger(number) {
   let result = "";
   console.log(number);
 for (i = 0; i <= userNumber.length; i++) {
-  if (userNumber.includes("1")){
-      console.log("hey one!");
+  if (userNumber.includes("1") && userNumber.includes("3") === false && userNumber.includes("2") === false){
+      console.log("hey one!")
       result = one;
       return result; 
-    }else if(userNumber.includes("2")){
+    }else if(userNumber.includes("2") && userNumber.includes("3") === false){
       console.log("two gurl");
       result = two;
     }else if(userNumber.includes("3")){
@@ -22,6 +22,16 @@ for (i = 0; i <= userNumber.length; i++) {
   return result; 
 }
 
+function range(number){
+  let myNumber = parseInt(number);
+  let myArray = [];
+  console.log('number')
+for (let i = 0; i < myNumber; i++) {
+  console.log(myNumber["i"]);
+  myArray = myNumber[i];
+  }
+  return myArray;
+}
 
 
 
