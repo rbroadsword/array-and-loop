@@ -1,0 +1,27 @@
+body{
+ background-image: url("../img/peeweeset.jpg");
+ background-size: cover;
+}
+.intro {
+  min-height: 15vh;
+  background-color: aqua;
+  text-align: center;
+}
+.intro h1{
+  padding: 2rem;
+  font-size: 5rem;
+}
+.bawdy {
+  min-height: 50vh;
+  width: 50%;
+  background-color: aqua;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+}
+
+.bawdy h2, label {
+  padding: 1rem;
+  margin: auto;
+}
+
