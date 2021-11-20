@@ -21,7 +21,7 @@ for (i = 0; i <= userNumber.length; i++) {
   }
   return result; 
 }
-return result;
+
 
 
 
