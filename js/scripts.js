@@ -1,21 +1,22 @@
 //Business Logic
-function roboger(input) {
-  let number = parseInt(input);
+function roboger(number) {
+  let userNumber = number;
   let one = "beep";
+  let two = "boop";
   let result = "";
-  for (i=0; i <= number.length; i++) { 
-    if (number[i] === 1) {
-      result = one;
-      console.log(result);
-      console.log(number[i]);
+  console.log(number);
+for (i = 0; i <= userNumber.length; i++) {
+  if (userNumber.includes("1")){
+     console.log("hey one!");
+     result = one;
+     return result; 
+    }else if(userNumber.includes("2")){
+      console.log("two gurl");
+     result = two;
     }
   }
   return result; 
 }
-
-
-
-
 
 
 
