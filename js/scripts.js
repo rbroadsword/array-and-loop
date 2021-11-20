@@ -26,12 +26,14 @@ function range(number){
   let myNumber = parseInt(number);
   let myArray = [];
   console.log('number')
-for (let i = 0; i < myNumber; i++) {
-  console.log(myNumber["i"]);
-  myArray = myNumber[i];
+for (let i = 0; i <= myNumber; i++) {
+  myArray.push(i);
+  console.log(i)
+  myArray;
   }
   return myArray;
 }
+
 
 
 
