@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PeeWee's Neighborhood</title>
+  <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">">
   <link rel="stylesheet" href="./cs/bootstrap.css">
   <link rel="stylesheet" href="./cs/styles.css">
   <script src="./js/jquery-3.6.0.js"></script>
@@ -14,12 +15,14 @@
     <h1>Pee Wee's Playhouse</h1>
   </header>
   <section class="bawdy">
-    <div class="form">
+    <form class="form" id="number-range">
       <h2>Pee-Wee's Number surprise!</h2>
       <label for="number">Enter a number:</label>
-      <input name="number" type="number">
+      <input name="number" type="number" id="user-number">
       <button type="submit">Submit</button>
-    </div>
+    </form>
+
+    <p>Here's Pee Wee's surprise: <span id="range-output"></span></p>
   </section>
 </body>
 </html>

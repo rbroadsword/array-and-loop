@@ -1,10 +1,11 @@
 body{
  background-image: url("../img/peeweeset.jpg");
  background-size: cover;
+ font-family: 'Architects Daughter', cursive;
 }
 .intro {
   min-height: 15vh;
-  background-color: aqua;
+  background: linear-gradient(to bottom, #ff00ff 0%, #ffffff 100%);
   text-align: center;
 }
 .intro h1{
@@ -14,14 +15,15 @@ body{
 .bawdy {
   min-height: 50vh;
   width: 50%;
-  background-color: aqua;
+  background: linear-gradient(to top, #ff00ff 0%, #ffffff 100%);
   text-align: center;
   margin: auto;
   padding: 2rem;
 }
 
-.bawdy h2, label {
+.bawdy h2, label, p {
   padding: 1rem;
   margin: auto;
+  font-size: 2rem;
 }
 
