@@ -1,3 +1,40 @@
+# Arrays and Looping
+
+#### Enter a number and return an altered string 
+
+#### By: Ryan Broadsword
+
+## Technologies Used 
+
+* HTML
+* CSS 
+* Bootstrap
+* jQuery 
+* java script
+
+## Description 
+
+A webpage that has the user enter a number and returns a range from 0 to the users inputted number with numbers that contain a 1, 2, or 3 altered.  
+
+## Setup/Installation Requirements
+
+* Clone this repository to your desktop. 
+* Navigate to the directory. 
+* Open index.html
+* Enter a number hit submit.
+
+## Known Bugs 
+
+* js user interface. 
+
+## License 
+
+* Not currently licensed
+
+## Contact Information 
+
+* Ryan Broadsword - rbroadsword@gmail.com
+
 Tests: 
 
 Describe: roboger(number)
