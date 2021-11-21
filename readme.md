@@ -25,7 +25,8 @@ A webpage that has the user enter a number and returns a range from 0 to the use
 
 ## Known Bugs 
 
-* js user interface. 
+* js user interface wont return answer.
+
 
 ## License 
 
