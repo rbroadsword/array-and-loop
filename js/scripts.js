@@ -35,7 +35,7 @@ for (let i = 0; i <= myNumber; i++) {
 }
 
 function roboger(returnRange) {
-  let input = returnRange;
+  let input = returnRange; //change array numbers to string? .toStraing()
   console.log(typeof input);
   let one = "beep";
   let two = "boop";
