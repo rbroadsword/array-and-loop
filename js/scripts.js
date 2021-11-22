@@ -34,23 +34,23 @@ for (let i = 0; i <= myNumber; i++) {
   return range;
 }
 
-function roboger(userNumber) {
-  //let number = userNumber;
-  console.log(typeof userNumber);
+function roboger(userInput) {
+  let input = userInput;
+  console.log(typeof input);
   let one = "beep";
   let two = "boop";
   let three = "won't you be my neighbor?";
   let result = [];
-  console.log(userNumber);
-for (i = 0; i <= userNumber.length; i++) {
-  if (userNumber.includes("1") && userNumber.includes("3") === false && userNumber.includes("2") === false){
+  console.log(input);
+for (i = 0; i <= input.length; i++) {
+  if (input.includes("1") && input.includes("3") === false && input.includes("2") === false){
       console.log("one gurl!")
       result = one;
       return result; 
-    }else if(userNumber.includes("2") && userNumber.includes("3") === false){
+    }else if(input.includes("2") && input.includes("3") === false){
       console.log("two gurl");
       result = two;
-    }else if(userNumber.includes("3")){
+    }else if(input.includes("3")){
       console.log("3 gurl");
       result = three; 
     }
@@ -63,12 +63,13 @@ for (i = 0; i <= userNumber.length; i++) {
 $(document).ready(function() {
   $("form#number-range").submit(function(event){
     event.preventDefault();
+    
     console.log("button kinda works"); //runs to here
-    const userNumber = $('#user-number').val();
-    const returnRange = range(userNumber); 
+    const userNumber = $('#user-number').val(); //this works
+    const returnRange = range(userNumber); //this works
     console.log(userNumber);
     const resultRoboger = roboger(range); 
     console.log(resultRange);
-    $('#result-output').html('this!');
+    $('#result-output').html('RESULT!'); //this works!
   });
 });
