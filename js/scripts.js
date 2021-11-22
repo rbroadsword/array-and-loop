@@ -36,21 +36,22 @@ for (let i = 0; i <= myNumber; i++) {
 
 function roboger(returnRange) {
   let input = returnRange; //change array numbers to string? .toStraing()
-  console.log(typeof input);
+  let input1 = input.toString(); 
+  console.log(typeof input1);
   let one = "beep";
   let two = "boop";
   let three = "won't you be my neighbor?";
   let result = [];
-  console.log(input);
-for (i = 0; i <= input.length; i++) {
-  if (input.includes("1") && input.includes("3") === false && input.includes("2") === false){
+  console.log(input1);
+for (i = 0; i <= input1.length; i++) {
+  if (input1.includes("1") && input1.includes("3") === false && input1.includes("2") === false){
       console.log("one gurl!")
       result = one;
       return result; 
-    }else if(input.includes("2") && input.includes("3") === false){
+    }else if(input1.includes("2") && input1.includes("3") === false){
       console.log("two gurl");
       result = two;
-    }else if(input.includes("3")){
+    }else if(input1.includes("3")){
       console.log("3 gurl");
       result = three; 
     }
@@ -70,6 +71,6 @@ $(document).ready(function() {
     //console.log(userNumber);
     const resultRoboger = roboger(returnRange); 
     console.log(resultRoboger);
-    $('#result-output').html(returnRange); //this works! need to change to resultRoboger once I get that working.
+    $('#result-output').html(resultRoboger); //this works! need to change to resultRoboger once I get that working.
   });
 });
