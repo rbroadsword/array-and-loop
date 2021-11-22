@@ -67,9 +67,9 @@ $(document).ready(function() {
     console.log("button kinda works"); //runs to here
     const userNumber = $('#user-number').val(); //this works
     const returnRange = range(userNumber); //this works
-    console.log(userNumber);
-    const resultRoboger = roboger(range); 
-    console.log(resultRange);
-    $('#result-output').html('RESULT!'); //this works!
+    //console.log(userNumber);
+    //const resultRoboger = roboger(range); 
+    //console.log(resultRange);
+    $('#result-output').html(returnRange); //this works!
   });
 });
