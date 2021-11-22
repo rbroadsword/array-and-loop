@@ -34,8 +34,8 @@ for (let i = 0; i <= myNumber; i++) {
   return range;
 }
 
-function roboger(userInput) {
-  let input = userInput;
+function roboger(returnRange) {
+  let input = returnRange;
   console.log(typeof input);
   let one = "beep";
   let two = "boop";
@@ -68,8 +68,8 @@ $(document).ready(function() {
     const userNumber = $('#user-number').val(); //this works
     const returnRange = range(userNumber); //this works
     //console.log(userNumber);
-    //const resultRoboger = roboger(range); 
-    //console.log(resultRange);
-    $('#result-output').html(returnRange); //this works!
+    const resultRoboger = roboger(returnRange); 
+    console.log(resultRoboger);
+    $('#result-output').html(returnRange); //this works! need to change to resultRoboger once I get that working.
   });
 });
